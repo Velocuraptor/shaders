@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6151616701827677712
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tangent space moss
-  m_Shader: {fileID: -6465566751694194690, guid: e05f52d9debed414c808712c43173bf3, type: 3}
+  m_Name: LavaLamp
+  m_Shader: {fileID: -6465566751694194690, guid: ea079c7377f7abd4bb78a2dfd4f7b4db, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -75,46 +62,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_07448a436172454988c9e865cee0e26e_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 1b20523070cbcc14e805d3a06b6afe28, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_0cba9fabff7945cdbd9405113c9eb071_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 9fc5c35a812bb144ea6fb65fc17a1412, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_1f5936ddd51d4e5793ac499c23952f91_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 5341a85ec89d4e542bb2ae9699940d3a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_4e8f0d2c600c4cd19507a6c5121d3e79_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 378d020998c88c440a4d1c3d5d201333, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_594b430752744806a85403b210664953_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 096dba5364e48394c9e44049b4b2f170, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_893139e513d645bfacbe228ba4b7e2ea_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 84b0b455d3e78c74cb4fd264a99e334a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_aefcfd168a284495b39ec29e27df2257_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 84b0b455d3e78c74cb4fd264a99e334a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_ce6ff7576e334ffab31b81dcb37b2fee_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 84b0b455d3e78c74cb4fd264a99e334a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_f3079b4f52b84667997327b95daaa91b_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: a4ef132d2dd26444fb37898794e5a8c2, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_fbe884df5e5445bfbba770389dc96a6a_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 096dba5364e48394c9e44049b4b2f170, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -174,3 +121,16 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &3933806629274706941
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10

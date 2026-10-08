@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3661430325749608733
+--- !u!114 &-581409961080252871
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Direction Mask
-  m_Shader: {fileID: -6465566751694194690, guid: 11294d325eb0a44c38fa84c8fc81962f, type: 3}
+  m_Name: Triplanar Projection
+  m_Shader: {fileID: -6465566751694194690, guid: 57a627536434c4fa5a9d2fc87b2e1c0f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -77,12 +77,28 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_cb0ff5d7c19a410b803b8b2bd230a85f_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 9fc5c35a812bb144ea6fb65fc17a1412, type: 3}
+    - _SGTriplanar_1c3604e14b024e04bfef5da12b1f14e7_Texture_4172912051_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 378d020998c88c440a4d1c3d5d201333, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_750f8a5e4af14fbca13b9d2a7ce8d996_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 378d020998c88c440a4d1c3d5d201333, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_82e3f8e64f2644c1a571ee9b87e0756f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 378d020998c88c440a4d1c3d5d201333, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f32f1fecc03941359b4025887db8717c_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 378d020998c88c440a4d1c3d5d201333, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_892a2bb5554b4b78b224974e5168df3e_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 378d020998c88c440a4d1c3d5d201333, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
